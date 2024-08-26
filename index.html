@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <section class="container">
+        <header>Registration Form</header>
+        <form action="#" class="form">
+            <div class="box">
+                <label for="">Full Name</label>
+                <input type="text" placeholder="Enter full name">
+            </div>
+            <div class="box">
+                <label for="">Email Address</label>
+                <input type="text" placeholder="example: xyz@gmail.com">
+            </div>
+            </div>
+
+            <div class="column">
+                <div class="box">
+                    <label for="">Phone Number</label>
+                    <input type="text" placeholder="Enter Phone number">
+                </div>
+                <div class="box">
+                    <label for="">Birth Date</label>
+                    <input type="date" placeholder="Enter birth date">
+                </div>
+            </div>
+            <div class="gender-box">
+                <h3>Gender</h3>
+                <div class="gender-optn">
+                    <div class="gender">
+                        <input type="radio" name="gender" id="check-male">
+                        <label for="check-male">Male</label>
+                    </div>
+                    <div class="gender">
+                        <input type="radio" name="gender" id="check-female">
+                        <label for="check-female">Female</label>
+                    </div>
+                    <div class="gender">
+                        <input type="radio" name="gender" id="check-other">
+                        <label for="check-other">Prefer not to say</label>
+                    </div>
+                </div>
+            </div>
+            <div class="box address">
+                <label for="">Address</label>
+                <input type="text" placeholder="Enter street address" required>
+                <input type="text" placeholder="Enter street address line 2" required>
+                <div class="column">
+                    <div class="select-box">
+                        <select name="" id="">
+                            <option hidden value="">Country</option>
+                            <option value="">India</option>
+                            <option value="">America</option>
+                            <option value="">Japan</option>
+                            <option value="">Nepal</option>
+
+                        </select>
+                    </div>
+                </div>
+                <input type="text" placeholder="Enter your city" required>
+                <div class="column">
+                    <input type="text" placeholder="Enter your landmark" required>
+                    <input type="text" placeholder="Enter Postal Code" required>
+                </div>
+            </div>
+            <button>
+                Submit
+            </button>
+
+        </form>
+    </section>
+</body>
+
+</html>
